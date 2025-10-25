@@ -14,7 +14,7 @@ main {
 .hidden {
   display: none;
 }
-.gallery-form {
+.form {
   margin-left: auto;
   margin-right: auto;
   padding: 36px 0;
@@ -44,7 +44,7 @@ main {
   font-weight: 500;
   border-radius: 8px;
 }
-.gallery-list {
+.gallery {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -121,7 +121,7 @@ main {
 }
 
 @media screen and (max-width: 1600px) {
-  .gallery-list {
+  .gallery {
     padding: 0 96px;
   }
   .gallery-list-item {

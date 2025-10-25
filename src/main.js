@@ -6,9 +6,9 @@ import fetchImages from './js/pixabay-api';
 import renderImages from './js/render-functions';
 
 const refs = {
-  form: document.querySelector('.gallery-form'),
+  form: document.querySelector('.form'),
   formInput: document.querySelector('.gallery-form-input'),
-  gallery: document.querySelector('.gallery-list'),
+  gallery: document.querySelector('.gallery'),
   loader: document.querySelector('.loader'),
 };
 
